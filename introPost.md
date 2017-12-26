@@ -1,3 +1,26 @@
 # Hello!  
 
-This is my introductory post.
+This is my introductory post.  Basically, my intention with this post is to tell everyone a little about who I am and what I plan to write about.
+
+## My name is Doug.
+
+I'm a Software Engineer currently working full-time on large scale ERP software for the public sector.  On nights and weekends, I spend most of my time studying Cryptoassets and Blockchain Technology.  I also play some poker and spent over a year playing full-time, but recently most of my poker time is turning into crypto/blockchain/software development time.
+
+## Current Projects
+
+I tend to stay very busy, and currently in addition to my day job I'm working on the following:
+
+* An online store and crowdfunding campaign for the Pla Motion Controller
+* Extending a previously written GDAX Dollar Cost Averaging bot with more features
+* Learning MeteorJS in order to rapidly develop some web apps in the Crypto space
+
+## Currently Reading
+
+I read articles, tweets, etc. about crypto and blockchain every day, but my two main squeezes right now are:
+
+* Cryptoassets - Chris Burniske
+* Mastering Bitcoin: Programming the Open Blockchain - Andreas Antonaupolis
+
+## What I plan to Write
+
+Most likely, the majority of my blogs will be on topics in the crypto/blockchain space.  I will probably occasionally write about poker, travel, general software engineering topics, cryptography, and whatever else grabs my interest.  
