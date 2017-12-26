@@ -10,7 +10,7 @@ I'm a Software Engineer currently working full-time on large scale ERP software 
 
 I tend to stay very busy, and currently in addition to my day job I'm working on the following:
 
-* An online store and crowdfunding campaign for the Pla Motion Controller
+* An online store and crowdfunding campaign for [Pla Motion Controller](www.plarocks.com)
 * Extending a previously written GDAX Dollar Cost Averaging bot with more features
 * Learning MeteorJS in order to rapidly develop some web apps in the Crypto space
 
@@ -23,4 +23,16 @@ I read articles, tweets, etc. about crypto and blockchain every day, but my two 
 
 ## What I plan to Write
 
-Most likely, the majority of my blogs will be on topics in the crypto/blockchain space.  I will probably occasionally write about poker, travel, general software engineering topics, cryptography, and whatever else grabs my interest.  
+Most likely, the majority of my blogs will be on topics in the crypto/blockchain space.  I will probably occasionally write about poker, travel, general software engineering topics, cryptography, and whatever else grabs my interest.
+
+## Social
+
+Here are my Social Media accounts:
+
+* [Facebook](https://www.facebook.com/doug.lyford)  
+* [Twitter](https://twitter.com/DougLyford)
+* [GitHub](https://github.com/Douggyfr3sh)
+
+## Comment!
+
+Let me know what sort of things you would like to hear about in the subject areas I mentioned above!  Thanks for reading!  <3    
