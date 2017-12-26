@@ -18,8 +18,8 @@ I tend to stay very busy, and currently in addition to my day job I'm working on
 
 I read articles, tweets, etc. about crypto and blockchain every day, but my two main squeezes right now are:
 
-* Cryptoassets - Chris Burniske
-* Mastering Bitcoin: Programming the Open Blockchain - Andreas Antonaupolis
+* [Cryptoassets - Chris Burniske](http://amzn.to/2BTJddY)
+* [Mastering Bitcoin: Programming the Open Blockchain - Andreas M. Antonopoulos](http://amzn.to/2DXthEU)
 
 ## What I plan to Write
 
