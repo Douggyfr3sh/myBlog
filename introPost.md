@@ -6,6 +6,8 @@ This is my introductory post.  Basically, my intention with this post is to tell
 
 I'm a Software Engineer currently working full-time on large scale ERP software for the public sector.  On nights and weekends, I spend most of my time studying Cryptoassets and Blockchain Technology.  I also play some poker and spent over a year playing full-time, but recently most of my poker time is turning into crypto/blockchain/software development time.
 
+![Bitcoin Holder](https://images.pexels.com/photos/730557/pexels-photo-730557.jpeg?w=940&h=650&auto=compress&cs=tinysrgb)
+
 ## Current Projects
 
 I tend to stay very busy, and currently in addition to my day job I'm working on the following:
