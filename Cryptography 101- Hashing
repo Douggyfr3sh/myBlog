@@ -1,0 +1,38 @@
+![](https://steemitimages.com/DQmVgn5vamNobMV4N9Pj7s3FMoY6vDo8Z9RFVP7DDxcKEsz/image.png)
+
+# Intro 
+
+Hello!  Today I want to introduce you to a basic concept in cryptography: __hashing__.
+
+Hashing is a fundamental concept in Computer Science.  I'm going to write this article from memory without doing any research or Googling.  Therefore, this is all going to be based on my own understanding of hashing and in my own words.  I would encourage you to do some more research and reading about hashing if you would like a deep understanding! 
+
+# What is Hashing? 
+
+Hashing is the process of transforming a piece of data into a new piece of data that cannot be used to identify or reveal the source data.  This is commonly done by applying a __hashing function__  to some information. 
+
+![hash01.jpg](https://steemitimages.com/DQmTcEEWZGgMgnjCoSdHJzKSLn5yWWbTAkDjt1vNQWsspyz/hash01.jpg)
+
+A good way to demonstrate this is to use the example of a string of text.  Consider a user entering their password on a website.  When user data is entered, it is stored somewhere in some type of database.  Imagine if user passwords were directly stored as strings in the database?  That would mean that anyone with access to the database would have full access to all user passwords.  A disgruntled employee or successful hacker could decide to sell your password on the dark web for a few Doge.  This would be bad.
+
+![passwordtheft.jpg](https://steemitimages.com/DQmTmPBi1yYSPu191hNLjrhT9QzBMEsyjcQqPmfgQDWYMYp/passwordtheft.jpg)
+
+
+In order to avoid this, it is common to use a __cryptographic hash__ in order to transform passwords into an unrecognizable output.  Hashing functions are designed to always produce the same output for a given input, but if you change the input just slightly, this can completely transform the output.  To illustrate this, let's consider a hashing function that takes any string as an input, and returns a 24-character alphanumeric string as an output.  Here are some possible example inputs and outputs: 
+
+![](https://steemitimages.com/DQmXZmWStkDyJX7PSwQeM4tkYzipiSKZhvLX1bQd6h8UyY8/image.png)
+
+_NOTE: In practice, the hashed output is generally much longer than 24 characters._
+
+In order to keep users safe, we can hash their password and store the output from the hashing function in our database instead of the actual password.  When the user tries to log in, we hash the password they enter and check the hashed output against the value stored in our database.  If these two values match, we allow the user to log in.  Voila! 
+
+![passwordtheftFoiled.jpg](https://steemitimages.com/DQmaz8hJm54NWf3CpcgCJUUhZHvxj75yKPYzXrgsim59NTH/passwordtheftFoiled.jpg)
+
+This keeps users much more safe.  Hackers and bad actors cannot discover user passwords, and even the company that stores your data has no idea what your password is.  At this point you might be tempted to think _"but what if I take the hashed output and feed it back through the hashing function ?"_   Well, remember that the hashing function is designed to give a unique output for each input.  Here's what might happen if you try to do that: 
+
+![](https://steemitimages.com/DQmZB3gcbCTq9UR7hKnLxoFX1JQWVVkpt8RRacJ87DpoDCs/image.png)
+
+As you can see, knowing what a user's password produces when it is passed through the hashing function tells you nothing about what the password actually is.  Since bad actors can't get your password, they must resort to executing a brute force attack in order to attempt to crack your password.  This involves entering many passwords over and over until the correct password is guessed.  Many modern websites lock users out after too many failed login attempts, and this protects against brute force attacks.  **You should always use a secure password and avoid using the same password more than once.  This will go a long way to protect your personal information and data!** 
+
+
+
+####  This has been a basic introduction to how hashing works.  Thanks for reading, hope you learned something ;)! 
